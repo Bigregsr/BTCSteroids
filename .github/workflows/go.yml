@@ -1,7 +1,34 @@
 # This workflow will build a golang project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
 
-name: Go
+name:
+BTCSteroids/
+├─── main.go
+├─── README.md
++--- electrum/
+|    ├── misc.go
+|	 ├── network.go
+|    └── server.go
+|
++--- operations/  
+|    ├── string_in_slice.go
+|    └── unique_in_slice.go
+|
++--- services/
+|	 └── address_to_scripthash.go
+| 
+|
+└─── steroids/
+	 ├── bitcoinchain_com.go
+	 ├── blockchain_info.go
+	 ├── blockcypher_com.go
+	 ├── blockonomics_co.go
+	 ├── bloom_flayer.go
+	 ├── electrum_x.go
+	 ├── hammer.go
+	 ├── sample_addresses.go
+	 ├── smartbit_com.go
+	 └── workers.go Go
 
 on:
   push:
